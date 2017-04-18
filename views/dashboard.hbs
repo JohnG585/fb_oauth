@@ -1,4 +1,15 @@
+<button class="btn signout">Sign Out</button>
+
 <h1>Welcome {{name}}</h1>
 
 <!-- Public JS -->
 <script src="/javascripts/dashboard.js" charset="utf-8"></script>
+
+<script>
+$('.signout').click(() => {
+  FB.logout(function(response) {
+    window.location = '/'
+  })
+})
+
+</script>
