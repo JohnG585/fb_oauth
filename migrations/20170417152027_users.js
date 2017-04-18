@@ -3,6 +3,7 @@ exports.up = function(knex) {
     table.increments()
     table.text('name').notNullable().defaultTo('')
     table.text('email').notNullable().defaultTo('')
+    table.text('userID').notNullable().defaultTo('')
   })
 }
 

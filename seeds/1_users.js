@@ -7,7 +7,8 @@ exports.seed = function(knex) {
         {
           id: 1,
           name: 'Jennifer Winer',
-          email: 'jeniwiner@gmail.com'
+          email: 'jeniwiner@gmail.com',
+          userID: '10154684575452893'
         }])
     })
     .then(() => {
